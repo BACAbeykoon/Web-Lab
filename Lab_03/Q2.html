@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>
+                <h1>Car Registration</h1>
+            </legend>
+            <center>
+            <form action="submit.php" method="post">
+                <table>
+                    <tr>
+                        <td>Owner Name</td>
+                        <td><input type="text" name="OwnerName" placeholder="Owner Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email" placeholder="Email"></td>
+                    </tr>
+                     <tr>
+                        <td>Mobile Number</td>
+                        <td><input type="text" name="MobileNumber" placeholder="Mobile Number"></td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>
+                            <select name="Country">
+                                <option value="s">Sri Lanka</option>
+                                <option value="a">USA</option>
+                                <option value="i">India</option>
+                                <option value="j">Japan</option>
+                                <option value="c">China</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Car Model</td>
+                        <td><input type="text" name="CarModel" placeholder="Car Model"></td>
+                    </tr>
+                    <tr>
+                        <td>Manufacture</td>
+                        <td>
+                            <select name="Select Year">
+                                <option value="s">2023</option>
+                                <option value="a">2022</option>
+                                <option value="i">2021</option>
+                                <option value="j">2020</option>
+                                <option value="c">2019</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Transmission</td>
+                        <td><input type="radio" name="Transmission" placeholder="manual">Manual
+                        <input type="radio" name="Transmission" placeholder="auto">Auto</td>
+                    </tr>
+                     <tr>
+                        <td>Additional Details</td>
+                         <td><textarea id="additionalDetails" name="additionalDetails" rows="4" cols="20"></textarea></td>
+                    </tr>
+                     <tr>
+                         <td></td>
+                        <td><input type="checkbox" name="termsAndConditions" placeholder="pop">
+                         I agree to the terms and conditions</td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </center>
+        </fieldset>
+    </body>
+</html>
+    
+   

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <center>
+        <h1>Registration Form</h1>
+            <form action="submit.php" method="post">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" name="FirstName"></td>
+                    </tr>
+                     <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="LastName"></td>
+                    </tr>
+                     <tr>
+                        <td>Mobile Number</td>
+                        <td><input type="text" name="MobileNumber"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female</td>
+                    </tr>
+                     <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Favourite Music</td>
+                        <td><input type="checkbox" name="FavouriteMusic" value="pop">POP
+                       <input type="checkbox" name="FavouriteMusic" value="rock">ROCK
+                        <input type="checkbox" name="FavouriteMusic" value="other">Other</td>
+                    </tr>
+                     <tr>
+                        <td>Additional Details</td>
+                         <td><textarea id="additionalDetails" name="additionalDetails" rows="4" cols="20"></textarea></td>
+                    </tr>
+                     <tr>
+                        
+                        <td colspan="2"><input type="checkbox" name="termsAndConditions" value="pop">
+                         I agree to the terms and conditions</td>
+                    </tr>
+               
+                <br><tr><center>
+              <td> <center> <input type="submit" value="Submit"></Center></td>
+                <td><center><input type="reset" value="Reset"></Center></td></tr>
+ </table>
+            </form>
+        </center>
+    </body>
+</html>
+    
+   
